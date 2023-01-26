@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 16</title>
+    <style>
+        * #div1 {
+            text-align: center;
+
+        }
+
+        #div2 {
+            text-align: center;
+            font-size: 0.8em;
+
+        }
+
+        #div3 {
+            width: 40%;
+            margin: auto;
+            float: left;
+            margin-left: 17%;
+            background-color:rgb(226, 100, 54);
+        }
+
+        #div4 {}
+
+        #div5 {}
+
+        #div6 {}
+
+        #div7 {
+            float: right;
+            margin-top: 0px;
+            margin-right: 18%;
+            background-color: rgb(226, 100, 54);
+        }
+
+        #div8 {
+            margin-top: 70px;
+            background-color: black;
+            color: white;
+            height: 600px;
+            width: 1300px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div8">
+
+        <div id="div1">
+
+            <h1>GIMNASIO HUK</h1>
+        </div>
+
+        <div id="div2">
+            <h2>PARA REALIZAR SU INSCRIPCIÓN, RELLENE EL FORMULARIO</h2>
+        </div>
+        <div id="div3">
+            <form>
+                <div id="div4">
+                    <fieldset>
+                        <legend>Datos personales y de envío</legend>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre"><br>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido"><br>
+                        <label for="Domicilio">Domicilio:</label>
+                        <input type="text" id="Domicilio" name="Domicilio"><br>
+                        <label for="Localidad">Localidad:</label>
+                        <input type="text" id="Localidad" name="Localidad"><br>
+                        <label for="codpostal">Código Postal:</label>
+                        <input type="text" id="codpostal" name="cospostal"><br>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="text" id="telefono" name="telefono"><br>
+                    </fieldset>
+                </div>
+                <div id="div5">
+                    <fieldset>
+                        <legend>Método de pago</legend>
+                        <input type="radio" id="efectivo" name="pago" value="efectivo">
+                        <label for="html">Efectivo</label><br>
+                        <input type="radio" id="tarjeta" name="pago" value="tarjeta">
+                        <label for="css">Tarjeta</label><br>
+                    </fieldset>
+                </div>
+                <div id="div6">
+                    <fieldset>
+                        <legend>Horario:</legend>
+                        <input type="checkbox" id="mañana" name="mañana" value="mañana">
+                        <label for="mañana"> Mañana</label><br>
+                        <input type="checkbox" id="tarde" name="tarde" value="tarde">
+                        <label for="tarde"> Tarde</label><br>
+                    </fieldset>
+                </div>
+
+        </div>
+        <div id="div7">
+            <fieldset>
+                <legend>Dias a la semana y meses de asistencia</legend>
+                <label for="dias">Elige los días de asistencia</label>
+                <select id="dias" name="dias">
+                    <option value="1">1 día</option>
+                    <option value="2">2 días</option>
+                    <option value="3">3 días</option>
+                    <option value="4">4 días</option>
+                    <option value="5">Todos los días</option>
+                </select><br>
+                <label for="mes">Elige los meses de asistencia</label>
+                <select id="mes" name="mes">
+                    <option value="1">1 mes</option>
+                    <option value="2">2 meses</option>
+                    <option value="3">3 meses</option>
+                    <option value="4">4 meses</option>
+                    <option value="5">5 meses</option>
+                    <option value="6">6 meses</option>
+                    <option value="7">7 meses</option>
+                    <option value="8">8 meses</option>
+                    <option value="9">9 meses</option>
+                    <option value="10">10 meses</option>
+                    <option value="11">11 meses</option>
+                    <option value="12">1 año</option>
+
+                </select>
+                <br>
+                <br>
+                <textarea name="comentarios" rows="10"
+                    cols="30">Escriba aquí sus comentarios que crea necesario que necesitemos saber.</textarea>
+                <br><br>
+
+            </fieldset>
+            <input type="submit">
+        </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
